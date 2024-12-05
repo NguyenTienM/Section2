@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Playfair Display',sans-serif; 
+}
+
+#section2{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.sectionCard{
+ display: flex;
+ flex-direction: row;
+}
+.Card{
+    border-radius: 10px;
+    background-color: rgb(238, 183, 183);
+    margin: 10px;
+    width: 684px;
+    height: 800px;
+}
+.Card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.desc{
+    margin: 50px;
+
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 20px;
+    
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
